@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_find_classes"
+            android:icon="@drawable/ic_menu_search"
+            android:title="Find Classes" />
+        <item
+            android:id="@+id/nav_view_cart"
+            android:icon="@drawable/ic_menu_cart"
+            android:title="View Cart" />
+        <item
+            android:id="@+id/nav_create_schedules"
+            android:icon="@drawable/ic_menu_schedule"
+            android:title="Create Schedules" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_help"
+            android:title="Help" />
+    </group>
+
+</menu>
